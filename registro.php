@@ -67,7 +67,7 @@ if(verifica_email($email, $conn)){
     
       // Exibe uma mensagem amigável para o usuário
       echo "Falha no cadastro. Tente novamente mais tarde.";
-    }0
+    }
     
   $conn = null;
   header("Refresh: 0.5; URL=index.php"); // Redireciona após 2 segundos
